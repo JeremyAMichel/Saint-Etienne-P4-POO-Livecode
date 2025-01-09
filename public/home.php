@@ -6,6 +6,8 @@ $dogRepository = new DogRepository($pdo);
 
 $dog = $dogRepository->findById(1);
 
+var_dump($dog);
+
 echo $dog->getNom();
 
 $dogRepository->insert(5, "fihhi", "yugd", "hfjdsbj");

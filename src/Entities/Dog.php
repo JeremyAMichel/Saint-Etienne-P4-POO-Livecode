@@ -1,7 +1,7 @@
 <?php
 
 
-class Dog
+class Dog extends Animal 
 {
     // Propriétés
     private int $id;
